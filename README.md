@@ -1,8 +1,8 @@
-# RACONATTACK TEAM DDOS SCRİPT LAYER 7
+# RACONATTACK TEAM DDOS SCRIPT LAYER 7 (MODIFIED BY MEMESTER)
 
 Proxy Sistemi İle Çalışan DDOS Scriptidir  
 
-# GEREKLİ OLAN KOMUTLAR
+# START
 
 `pip3 install pysocks bs4 scapy-python3`
 
@@ -10,11 +10,15 @@ VE
 
 `py -m pip install pysocks bs4`
 
-# Nasıl Kullanılır
+OR 
+
+pip install pysocks bs4
+
+ACTIVATW
 
 `python3 RatDDOS.py`
 
-# Proxy Uretici Kullanımı
+PROXY
 
 `python3 RatProxy.py`
 
@@ -37,4 +41,4 @@ VE
 
 
 
-# VİDEOLU ANLATIM EKLENECEKTİR
+# HITMAN
