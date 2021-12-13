@@ -6,15 +6,15 @@ Proxy Sistemi İle Çalışan DDOS Scriptidir
 
 `pip3 install pysocks bs4 scapy-python3`
 
-VE
+OR
 
 `py -m pip install pysocks bs4`
 
-OR 
+AND 
 
 pip install pysocks bs4
 
-ACTIVATW
+ACTIVATE
 
 `python3 RatDDOS.py`
 
@@ -22,10 +22,16 @@ PROXY
 
 `python3 RatProxy.py`
 
+#OR DO THE CC-ATTACK
+
+by doing
+
+python3 cc.py
 
 
 
-# EKRAN GORUNTULERİ
+
+# IMAGE
 
 ![rat dos](https://user-images.githubusercontent.com/46251016/50542702-00bf7e00-0bd5-11e9-98e1-ca8f474cd430.jpg)
 
