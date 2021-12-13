@@ -33,7 +33,7 @@ python3 cc.py
 
 # IMAGE
 
-![rat dos](https://user-images.githubusercontent.com/46251016/50542702-00bf7e00-0bd5-11e9-98e1-ca8f474cd430.jpg)
+![rat dos](https://ibb.co/wszMHc1)
 
 
 
