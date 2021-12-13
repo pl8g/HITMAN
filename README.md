@@ -31,7 +31,6 @@ python3 cc.py
 
 
 ALL ATTACKS 
-pyddos.py
 python3 cc.py
 python3 RatDDOS.py
 
